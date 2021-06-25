@@ -14,9 +14,9 @@ Areas of math that are most commonly used in neural networks are (more or less i
 * **Probability and Statistics** (random variables, expectations, variance, Bayes' theorem)
 * **Optimization Algorithms** (minimization or maximization)
  
-If you are familiar with basics of these fields, especially with matrices and gradients (e.g. you took Linear Algebra and Multivariable Calculus courses), you can skip this section. Otherwise we recommend that you obtain basic understanding of matrices and gradients. 
+If you are familiar with basics of these fields, especially with matrices and gradients (e.g. you took Linear Algebra and Multivariable Calculus courses), you can skip this section. Otherwise we recommend that you obtain basic understanding of them before continuing. 
 
-You can start with videos by [3blue1brown](https://www.3blue1brown.com), who created a series on the basics of linear algebra, calculus and multivariable calculus. You can either watch the entire series or just stop watching after feeling comfortable with matrices and gradietns. 
+You can start with a series of videos on the basics of linear algebra, calculus and multivariable calculus by [3blue1brown](https://www.3blue1brown.com). Depending on your commitment, you can either watch the entire series or just stop watching after feeling comfortable with matrices and gradietns. 
 
 * [Linear Algebra Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 * [Calculus Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
@@ -37,9 +37,18 @@ If you prefer written or more in-depth sources, you can have a look at the follo
 For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication.
 
 ## Neural Network Basics
-You can skip this section if you already know what a neural network is, what a loss function and the backpropagation algroithm is. Before traininig neural networks you should know what a neural network is. The following video series by [3blue1brown](https://www.3blue1brown.com) provides an excellent intuitive introduction to the basics of neural networks.
+To start working with neural networks, you need to learn what neural networks are! The main concepts you need for that are:
+* Perceptron (artificial neuron)
+* Activation 
+* Layer
+* Loss function
+* Backpropagation algorithm
 
-[https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+Perceptrons, activations and layers allow to describe the _architecture_ or structure of a network, while loss function and backrpropagation algorithm are needed for training a network.
+
+The following [video series](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) by [3blue1brown](https://www.3blue1brown.com) provides an excellent intuitive introduction into all of the above.
+
+You can also read of of the many articles on the topic, e.g. [this one](https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/).
 
 
 ## Command Line Basics
