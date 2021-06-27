@@ -9,6 +9,7 @@ We will cover basic concepts, as well as programming tools, that you need to get
 1. [Math Background](#math_background) 
 2. [Neural Network Basics](#nns_basics)
 3. [Command Line Basics](#cl_basics)
+5. [Hardware and OS](#hard_os)
 4. [Python](#python)
 5. [Deep Learning Frameworks](#dl_frameworks)
 6. [Training Neural Nets](#train_nns)
@@ -58,6 +59,8 @@ To run code on your computer or work with remote machines, you often need to use
 Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki/Z_shell)) are quite similar to Bash and allow easy transition.
 
 On the other hand, Windows uses Command Prompt (cmd), which is rather different from Bash. You can have a look at this tutorial is you intend to use cmd: [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
+
+## Hardware and OS<a name="hard_os"></a>
 
 ## Python<a name="python"></a>
 Python is a very popular programming language! It is fair to say that most of deep learning research and applications require Python. The following chart illustrates the rise of popularity of Python.
