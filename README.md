@@ -2,6 +2,7 @@
 
 # Table of Contents
 1. [Math Background](#math_background) 
+2. [Neural Network Basics](#nns_basics)
 
 ![](mindmap.png)
 
@@ -39,7 +40,7 @@ If you prefer written or more in-depth sources, you can have a look at the follo
 
 For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication.
 
-## Neural Network Basics
+## Neural Network Basics <a name="nn_basics"></a>
 You can skip this section if you already know what a neural network is, what a loss function and the backpropagation algroithm is. Before traininig neural networks you should know what a neural network is. The following video series by [3blue1brown](https://www.3blue1brown.com) provides an excellent intuitive introduction to the basics of neural networks.
 
 [https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
