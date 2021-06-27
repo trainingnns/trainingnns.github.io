@@ -2,13 +2,15 @@
 
 ![](mindmap.png)
 
+This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. It can useful if you are a math student, a life scientist or anyone else interested in data analysis. 
+We will cover basic concepts, as well as programming tools, that you need to get started with neural networks. The guide is organized into sections as in the map above and you can read it in the order that is most convenient for you, as well as skip some sections altogether if you are familiar with concepts covered in them.
+
 # Table of Contents
 1. [Math Background](#math_background) 
 2. [Neural Network Basics](#nns_basics)
 3. [Command Line Basics](#cl_basics)
-
-This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. It can useful if you are a math student, a life scientist or anyone else interested in data analysis. 
-We will cover basic concepts, as well as programming tools, that you need to get started with neural networks. The guide is organized into sections as in the map above and you can read it in the order that is most convenient for you, as well as skip some sections altogether if you are familiar with concepts covered in them.
+4. [Python](#python)
+5. [Deep Learning Frameworks](#dl_frameworks)
 
 ## Math Background <a name="math_background"></a>
 
@@ -54,7 +56,7 @@ Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki
 
 On the other hand, Windows uses Command Prompt (cmd), which is rather different from Bash. You can have a look at this tutorial is you intend to use cmd: [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
 
-## Python
+## Python<a name="python"></a>
 Python is a very popular programming language! It is fair to say that most of deep learning research and applications require Python. The following chart illustrates the rise of popularity of Python.
 ![](chart_python.png)
 (Source: https://stackoverflow.blog/2017/09/06/incredible-growth-python/ )
@@ -69,7 +71,7 @@ There is an abundance of tutorials for Python. Here is
 * jupyter notebook
 
 
-## Deep Learning Frameworks
+## Deep Learning Frameworks <a name="dl_frameworks"></a>
 There is a great number of Python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
 
 * [PyTorch](https://pytorch.org/tutorials/beginner/basics/intro.html)
