@@ -62,6 +62,12 @@ On the other hand, Windows uses Command Prompt (cmd), which is rather different 
 
 ## Hardware and OS<a name="hard_os"></a>
 
+The training of neural networks is usually computationally expensive. Modern deep learning frameworks have included the possibility to train the neural network in different architectures and devices, in particular, GPUs. Although the need of a GPU is generally minor when you are training your first experiments, a real-world application will sometimes need more than one GPU to be trained. The advantages of frameworks like [pytorch or tensorflow](#dl_framewokrs) is the compatibility of its code to almost any device. Since the software normally used in deep learning is python, one can train neural networks on any operating system, e.g. Windows, OS X and Linux. We recommend to use Windows or Linux since currently OS X does not offer an stable GPU version. 
+
+In order to use GPUs for training you need to have a CUDA-compatible GPU from NVIDIA. If you have Linux Ubuntu, you can follow this [post](https://askubuntu.com/questions/1288672/how-do-you-install-cuda-11-on-ubuntu-20-10-and-verify-the-installation). For Windows 10 users, you can consult this [guide](https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781). 
+
+If you are affiliated to an university or a research center you would normally have access to computing clusters with GPUs. The main tool you need to know to run your training remotely is [ssh](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work). If you are interested to have your own Deep Learning Rig, there are affordable ways to build it, this [video](https://www.youtube.com/watch?v=Nz7xzUybpFM&ab_channel=DanielBourke) is a detailed guide to do it. There are also some commercially available pre-built deep learning workstatins, for example in Germany there is [AIME](https://www.aime.info/).
+
 ## Python<a name="python"></a>
 Python is a very popular programming language! It is fair to say that most of deep learning research and applications require Python. The following chart illustrates the rise of popularity of Python.
 ![](chart_python.png)
@@ -70,12 +76,9 @@ Python is a very popular programming language! It is fair to say that most of de
 There is an abundance of tutorials for Python. Here is 
 [https://www.python-course.eu/python3_course.php](https://www.python-course.eu/python3_course.php)
 
- 
+ The main advantage of python is the available optimized libraries for scientific computing, for example [numpy](https://numpy.org/doc/stable/) and [scipy](https://docs.scipy.org/doc/scipy/reference/). For visualiation [matplotlib](https://matplotlib.org/stable/contents.html). We recommend anybody to create a local enviroment to install all your libraries wihtout affecting the global system, for that one can use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html), conda is also useful to install GPU-capable libraries. Within conda you can use [pip](https://www.anaconda.com/blog/using-pip-in-a-conda-environment) for easy installation of the libraries. 
 
-* Libraries
-* numpy
-* jupyter notebook
-
+In scientific computing, one would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, is ideal for prototyping. Jupyter Notebook is also avialable for remote computation, one run remotely notebooks following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. 
 
 ## Deep Learning Frameworks <a name="dl_frameworks"></a>
 There is a great number of Python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
@@ -83,7 +86,7 @@ There is a great number of Python libraries that provide implementations of neur
 * [PyTorch](https://pytorch.org/tutorials/beginner/basics/intro.html)
 * [Tensorflow](https://www.tensorflow.org/tutorials) (with its user-friendly [Keras](https://keras.io/about/) API)
 
-Both of the libraries allow similar functionality and are well-documented. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
+Both of the libraries allow similar functionality and are well-documented. They are also compatible with a lot of architectures, such as CPU, GPU and TPU. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
 
 ## Training Neural Nets <a name="train_nns"></a>
 There are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
@@ -92,31 +95,25 @@ There are numerous choices you have to make while building and training a neural
  * Fully-connected networks (Multi-layer perceptrons)
  * Convolutional networks
  * Recurrent networks
+ * Residual netoworks
+ * Transformers
 
 **Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42).  Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and Adam algorithm is a very popular choice. 
 
-**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, batch size
+**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, batch size. This [post](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020) is an up-to-date study of available hyperparameter tunning algorithms and implementations. 
 
-**Initialization:**
+**Initialization:** Initialization of your weight can make the difference for your network to converge succesfully to good minima. In this [article](https://www.deeplearning.ai/ai-notes/initialization/) there is a detailed discussion on the commonly used initialization procedures. 
 
-
-
-Commonly used layers are for example:
-  * Dense layer
-  * Convolution layers
-  * Pooling layer
-  * Batch Norm layer [https://www.youtube.com/watch?v=nUUqwaxLnWs](https://www.youtube.com/watch?v=nUUqwaxLnWs)
-  * Recurrent layers
+**Layers:** A neural network architecture is defined by its basic components, the layers. The most commonly used layers are for example:
+  * [Dense layer](https://medium.com/datathings/dense-layers-explained-in-a-simple-way-62fe1db0ed75)
+  * [Convolution layers](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/)
+  * [Pooling layer](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
+  * [Batch Norm layer](https://www.youtube.com/watch?v=nUUqwaxLnWs)
+  * [Recurrent layers](https://medium.com/datathings/recurrent-lstm-layers-explained-in-a-simple-way-d615ebcac450)
+  * [Residual layers](https://medium.com/analytics-vidhya/understanding-and-implementation-of-residual-networks-resnets-b80f9a507b9c)
+  * [Attention layers](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 These layers and many variations of them are implemented in the deep learning frameworks that we covered.
-
-
-
-
-
-* GPUs and CPUs
-
-
 
 ## Research Experiments with neural nets<a name="resexp_nns"></a>
 * monitoring different runs with tensorboard
@@ -124,5 +121,7 @@ These layers and many variations of them are implemented in the deep learning fr
 
 
 ## Data Analysis <a name="data_an"></a>
+
+
 
 
