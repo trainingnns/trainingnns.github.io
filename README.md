@@ -78,7 +78,7 @@ There is an abundance of tutorials for Python. Here is
 
  The main advantage of python is the available optimized libraries for scientific computing, for example [numpy](https://numpy.org/doc/stable/) and [scipy](https://docs.scipy.org/doc/scipy/reference/). For visualiation [matplotlib](https://matplotlib.org/stable/contents.html). We recommend anybody to create a local enviroment to install all your libraries wihtout affecting the global system, for that one can use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html), conda is also useful to install GPU-capable libraries. Within conda you can use [pip](https://www.anaconda.com/blog/using-pip-in-a-conda-environment) for easy installation of the libraries. 
 
-In scientific computing, one would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, is ideal for prototyping. Jupyter Notebook is also avialable for remote computation, one run remotely notebooks following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. 
+In scientific computing, one would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, is ideal for prototyping. Jupyter Notebook is also avialable for remote computation, one run remotely notebooks following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. Another great visualiation tool similar to Jupyter is [Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). As Jupyter, in Colab you can use interactive notebooks to run python code and train neural networks. The big advantage of this tool is that it makes all the computations in the cloud, this also means that you can run your notebook whenever you have internet access. Google also allows Colab users to train and deploy models, both freely and with cost, with GPUs and TPUs. 
 
 ## Deep Learning Frameworks <a name="dl_frameworks"></a>
 There is a great number of Python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
@@ -115,13 +115,10 @@ There are numerous choices you have to make while building and training a neural
 
 These layers and many variations of them are implemented in the deep learning frameworks that we covered.
 
-## Research Experiments with neural nets<a name="resexp_nns"></a>
-* monitoring different runs with tensorboard
-* hyperparameter optimization
+## Research Experiments with Neural Nets<a name="resexp_nns"></a>
 
+Deep learning is a field that has an important empirical side. In order to train a neural network succesfully the only design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard?hl=es-419) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tunner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorhc are handy for optimization and fine-tunning the different hyperparameters of your architecture. 
 
-## Data Analysis <a name="data_an"></a>
+## Data Analysis and Image Processing <a name="data_an"></a>
 
-
-
-
+Data Analysis and Image processing tools are also very handy in the training of neural networks. In python the main library used for data processing and analysis is [pandas](https://pandas.pydata.org/docs/), inspired by the statistical programming language [R](https://www.r-project.org/about.html). For image processing we recommend the library [sci-kit image](https://scikit-image.org/docs/stable/) which contains plenty of image filtering, resizing, cropping, rotating, etc... algorithms.
