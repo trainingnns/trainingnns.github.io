@@ -1,10 +1,11 @@
 # Getting started with NNs
 
+![](mindmap.png)
+
 # Table of Contents
 1. [Math Background](#math_background) 
 2. [Neural Network Basics](#nns_basics)
-
-![](mindmap.png)
+3. [Command Line Basics](#cl_basics)
 
 This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. It can useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 We will cover basic concepts, as well as programming tools, that you need to get started with neural networks. The guide is organized into sections as in the map above and you can read it in the order that is most convenient for you, as well as skip some sections altogether if you are familiar with concepts covered in them.
@@ -46,7 +47,7 @@ You can skip this section if you already know what a neural network is, what a l
 [https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 
-## Command Line Basics
+## Command Line Basics<a name="cl_basics"></a>
 To run code on your computer or work with remote machines, you often need to use command line. The command languages (or shells) that are available for you depend on your OS. The most commonly used one is Bash, which is the default for most Linux systems and MacOS prior to 2019. You can start learning about it with this tutorial: [https://ubuntu.com/tutorials/command-line-for-beginners#1-overview](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
 Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki/Z_shell)) are quite similar to Bash and allow easy transition.
