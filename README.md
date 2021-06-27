@@ -11,6 +11,9 @@ We will cover basic concepts, as well as programming tools, that you need to get
 3. [Command Line Basics](#cl_basics)
 4. [Python](#python)
 5. [Deep Learning Frameworks](#dl_frameworks)
+6. [Training Neural Nets](#train_nns)
+7. [Research Experiments with neural nets](#resexp_nns)
+8. [Data Analysis](#data_an)
 
 ## Math Background <a name="math_background"></a>
 
@@ -79,7 +82,7 @@ There is a great number of Python libraries that provide implementations of neur
 
 Both of the libraries allow similar functionality and are well-documented. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
 
-## Training Neural Nets
+## Training Neural Nets <a name="train_nns"></a>
 There are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
 
 **Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in DL research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
@@ -112,9 +115,11 @@ These layers and many variations of them are implemented in the deep learning fr
 
 
 
-## Research Experiments with neural nets
+## Research Experiments with neural nets<a name="resexp_nns"></a>
 * monitoring different runs with tensorboard
 * hyperparameter optimization
 
 
-## Data Analysis
+## Data Analysis <a name="data_an"></a>
+
+
