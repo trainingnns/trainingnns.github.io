@@ -27,7 +27,7 @@ Areas of math that are most commonly used in neural networks are (more or less i
  
 If you are familiar with basics of these fields, especially with matrices and gradients (e.g. you took Linear Algebra and Multivariable Calculus courses), you can skip this section. Otherwise we recommend that you obtain basic understanding of matrices and gradients. 
 
-You can start with videos by [3blue1brown](https://www.3blue1brown.com), who created a series on the basics of linear algebra, calculus and multivariable calculus. You can either watch the entire series or just stop watching after feeling comfortable with matrices and gradietns. 
+You can start with videos by [3blue1brown](https://www.3blue1brown.com), who created a series on the basics of linear algebra, calculus and multivariable calculus. You can either watch the entire series or just stop watching after feeling comfortable with matrices and gradients. 
 
 * [Linear Algebra Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 * [Calculus Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
@@ -58,30 +58,30 @@ To run code on your computer or work with remote machines, you often need to use
 
 Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki/Z_shell)) are quite similar to Bash and allow easy transition.
 
-On the other hand, Windows uses Command Prompt (cmd), which is rather different from Bash. You can have a look at this tutorial is you intend to use cmd: [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
+On the other hand, Windows uses Command Prompt (cmd), which is rather different from Bash. You can take a look at this tutorial if you have interest on learning cmd: [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
 
 ## Hardware and OS<a name="hard_os"></a>
 
-The training of neural networks is usually computationally expensive. Modern deep learning frameworks have included the possibility to train the neural network in different architectures and devices, in particular, GPUs. Although the need of a GPU is generally minor when you are training your first experiments, a real-world application will sometimes need more than one GPU to be trained. The advantages of frameworks like [pytorch or tensorflow](#dl_framewokrs) is the compatibility of its code to almost any device. Since the software normally used in deep learning is python, one can train neural networks on any operating system, e.g. Windows, OS X and Linux. We recommend to use Windows or Linux since currently OS X does not offer an stable GPU version. 
+The training of neural networks is usually computationally expensive. Modern deep learning frameworks have included the possibility to train the neural network in different architectures and devices, in particular, GPUs. Although the need of a GPU is generally minor when you are training your first experiments, a real-world application will sometimes need more than one GPU to be trained. The advantages of frameworks like [pytorch or tensorflow](#dl_framewokrs) is the compatibility of its code to almost any device. Since the software normally used in deep learning is python, one can train neural networks on any operating system, e.g. Windows, OS X and Linux. We recommend to use Windows or Linux since currently OS X does not offer a stable GPU version. 
 
 In order to use GPUs for training you need to have a CUDA-compatible GPU from NVIDIA. If you have Linux Ubuntu, you can follow this [post](https://askubuntu.com/questions/1288672/how-do-you-install-cuda-11-on-ubuntu-20-10-and-verify-the-installation). For Windows 10 users, you can consult this [guide](https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781). 
 
-If you are affiliated to an university or a research center you would normally have access to computing clusters with GPUs. The main tool you need to know to run your training remotely is [ssh](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work). If you are interested to have your own Deep Learning Rig, there are affordable ways to build it, this [video](https://www.youtube.com/watch?v=Nz7xzUybpFM&ab_channel=DanielBourke) is a detailed guide to do it. There are also some commercially available pre-built deep learning workstatins, for example in Germany there is [AIME](https://www.aime.info/).
+If you are affiliated to a university or a research center you would normally have access to computing clusters with GPUs. The main tool you need to know to run your training remotely is [ssh](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work). If you are interested to have your own Deep Learning Rig, there are affordable ways to build it; this [video](https://www.youtube.com/watch?v=Nz7xzUybpFM&ab_channel=DanielBourke) provides a detailed guide on how to do it. There are also some commercially available pre-built deep learning workstations (high-performance PCs), for example in Germany, there is [AIME](https://www.aime.info/).
 
 ## Python<a name="python"></a>
-Python is a very popular programming language! It is fair to say that most of deep learning research and applications require Python. The following chart illustrates the rise of popularity of Python.
+Python is a very popular programming language! It is fair to say that most of deep learning research and applications require python. The following chart illustrates the rise of popularity of python.
 ![](chart_python.png)
 (Source: https://stackoverflow.blog/2017/09/06/incredible-growth-python/ )
 
-There is an abundance of tutorials for Python. Here is 
+There is an abundance of tutorials for python. We recommend 
 [https://www.python-course.eu/python3_course.php](https://www.python-course.eu/python3_course.php)
 
- The main advantage of python is the available optimized libraries for scientific computing, for example [numpy](https://numpy.org/doc/stable/) and [scipy](https://docs.scipy.org/doc/scipy/reference/). For visualiation [matplotlib](https://matplotlib.org/stable/contents.html). We recommend anybody to create a local enviroment to install all your libraries wihtout affecting the global system, for that one can use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html), conda is also useful to install GPU-capable libraries. Within conda you can use [pip](https://www.anaconda.com/blog/using-pip-in-a-conda-environment) for easy installation of the libraries. 
+ The main advantage of python is the available optimized libraries for scientific computing, for example, [numpy](https://numpy.org/doc/stable/) and [scipy](https://docs.scipy.org/doc/scipy/reference/). For visualiation [matplotlib](https://matplotlib.org/stable/contents.html) is typically used. We recommend anybody to create a local enviroment to install all your libraries wihtout affecting the global system. This can be done using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html), conda is also useful to install GPU-capable libraries. Within conda you can use [pip](https://www.anaconda.com/blog/using-pip-in-a-conda-environment) for easy installation of the libraries. 
 
-In scientific computing, one would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, is ideal for prototyping. Jupyter Notebook is also avialable for remote computation, one run remotely notebooks following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. Another great visualiation tool similar to Jupyter is [Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). As Jupyter, in Colab you can use interactive notebooks to run python code and train neural networks. The big advantage of this tool is that it makes all the computations in the cloud, this also means that you can run your notebook whenever you have internet access. Google also allows Colab users to train and deploy models, both freely and with cost, with GPUs and TPUs. 
+In scientific computing, you typically would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, which is ideal for prototyping. Jupyter Notebook is also available for remote computation, one can learn to run notebooks remotely following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. Another great visualiation tool similar to Jupyter is [Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). As Jupyter, in Colab you can use interactive notebooks to run python code and train neural networks. The big advantage of this tool is that it makes all the computations in the cloud. This also means that you can run your notebook whenever you have internet access. Google also allows Colab users to train and deploy models, both freely and with cost, with GPUs and TPUs. 
 
 ## Deep Learning Frameworks <a name="dl_frameworks"></a>
-There is a great number of Python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
+There is a great number of python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
 
 * [PyTorch](https://pytorch.org/tutorials/beginner/basics/intro.html)
 * [Tensorflow](https://www.tensorflow.org/tutorials) (with its user-friendly [Keras](https://keras.io/about/) API)
@@ -91,16 +91,16 @@ Both of the libraries allow similar functionality and are well-documented. They 
 ## Training Neural Nets <a name="train_nns"></a>
 There are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
 
-**Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in DL research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
+**Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in deep learning research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
  * Fully-connected networks (Multi-layer perceptrons)
  * Convolutional networks
  * Recurrent networks
  * Residual netoworks
  * Transformers
 
-**Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42).  Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and Adam algorithm is a very popular choice. 
+**Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42).  Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and the Adam algorithm is a very popular choice. 
 
-**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, batch size. This [post](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020) is an up-to-date study of available hyperparameter tunning algorithms and implementations. 
+**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, and batch size. This [post](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020) is an up-to-date study of available hyperparameter tunning algorithms and implementations. 
 
 **Initialization:** Initialization of your weight can make the difference for your network to converge succesfully to good minima. In this [article](https://www.deeplearning.ai/ai-notes/initialization/) there is a detailed discussion on the commonly used initialization procedures. 
 
@@ -117,7 +117,7 @@ These layers and many variations of them are implemented in the deep learning fr
 
 ## Research Experiments with Neural Nets<a name="resexp_nns"></a>
 
-Deep learning is a field that has an important empirical side. In order to train a neural network succesfully the only design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard?hl=es-419) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tunner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorch are handy for optimization and fine-tunning the different hyperparameters of your architecture. 
+Deep learning is a field that has an important empirical side. In order to train a neural network succesfully merely choosing the design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard?hl=es-419) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tunner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorch are handy for optimization and fine-tunning the different hyperparameters of your architecture. 
 
 ## Data Analysis and Image Processing <a name="data_an"></a>
 
