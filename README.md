@@ -31,7 +31,7 @@ Finally, we link some online courses that teach deep learning in [Section 10](#d
 7. [Training Neural Nets](#train_nns)
 8. [Research Experiments with neural nets](#resexp_nns)
 9. [Data Analysis](#data_an)
-10.[Deep Learning Courses Online](#dl_courses)
+10. [Deep Learning Courses Online](#dl_courses)
 
 ## Math Background <a name="math_background"></a>
 
