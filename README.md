@@ -13,11 +13,11 @@ Training neural nets yourself for applications or research requires programming.
 
 > Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
 
-If you are not familiar with Python you should learn it if you would like to train neural networks. We talk about Python resources in [Section 4](#python). The command lines is a very useful tool to any programmer. When it comes to training neural networks, you will also need basic command line skills once you start moving on from Colab tutorials to your own projects. We talk about command line resources in [Section 3](#cl_basics). In [Section 5](#hard_os) we touch on hardware and OS in the context of training neural networks. 
+If you are not familiar with Python you should learn it if you would like to train neural networks. We talk about Python resources in [Section 5](#python). The command lines is a very useful tool to any programmer. When it comes to training neural networks, you will also need basic command line skills once you start moving on from Colab tutorials to your own projects. We talk about command line resources in [Section 3](#cl_basics). In [Section 4](#hard_os) we touch on hardware and OS in the context of training neural networks. 
 
-Once you are familiar with the basics of Python and some command line, you are ready to dive into training neural networks. Fortunately there are very powerful open source tools (python libraries) that make training neural networks easier than ever. These tools are called deep learning frameworks and the most popular ones are [Tensorflow](https://www.tensorflow.org) and [PyTorch](https://pytorch.org). We talk about them in [Section 5](#dl_frameworks).
+Once you are familiar with the basics of Python and some command line, you are ready to dive into training neural networks. Fortunately there are very powerful open source tools (python libraries) that make training neural networks easier than ever. These tools are called deep learning frameworks and the most popular ones are [Tensorflow](https://www.tensorflow.org) and [PyTorch](https://pytorch.org). We talk about them in [Section 6](#dl_frameworks).
 
-After choosing your preferred deep learning framework, you are ready to explore the tips and tricks in training neural networks. You can find more on this in [Section 6](#train_nns).
+After choosing your preferred deep learning framework, you are ready to explore the tips and tricks in training neural networks. You can find more on this in [Section 7](#train_nns).
 
 # Table of Contents
 1. [Math Background](#math_background) 
