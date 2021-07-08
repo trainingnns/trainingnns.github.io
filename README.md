@@ -9,6 +9,12 @@ If you don't know what a neural network is, we recommend you finish first readin
 The [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.40188&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false), may at first overwhelm you with NN training options that don't make much sense to you yet. In [Section 6](#train_nns) we will provide various resources for you to understand the tips and tricks that go ino successfully training a neural net. Just
 click play on the top left corner in the playground and watch what happens! 
 
+Training neural nets yourself for applications or research requires programming. If you don't have programming background, then you will have to also learn programming before training neural networks. If you know some Python already we recommend you check out a [simple colab notebook tutorial](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb) that walks you through an image classification task with neural networks in Tensorflow (one of the two big deep learning frameworks - we will talk more about deep learning frameworks in [Section 5](#dl_frameworks)). Colab notebooks are the perfect way to start for beginners with a basic understanding of neural networks and rudimentary python skills. Google describes Colab as follows:
+``
+Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
+``
+
+The command line is a swiss army knife for programmers and a tool that you will use 
 
 
 # Table of Contents
