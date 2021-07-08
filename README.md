@@ -10,9 +10,9 @@ The [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&b
 click play on the top left corner in the playground and watch what happens! 
 
 Training neural nets yourself for applications or research requires programming. If you don't have programming background, then you will have to also learn programming before training neural networks. If you know some Python already we recommend you check out a [simple colab notebook tutorial](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb) that walks you through an image classification task with neural networks in Tensorflow (one of the two big deep learning frameworks - we will talk more about deep learning frameworks in [Section 5](#dl_frameworks)). Colab notebooks are the perfect way to start for beginners with a basic understanding of neural networks and rudimentary python skills. Google describes Colab as follows:
-``
-Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
-``
+
+> Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
+
 
 The command line is a swiss army knife for programmers and a tool that you will use 
 
