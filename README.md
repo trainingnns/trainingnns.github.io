@@ -25,10 +25,10 @@ After choosing your preferred deep learning framework, you are ready to explore 
 3. [Command Line Basics](#cl_basics)
 4. [Hardware and OS](#hard_os)
 5. [Python](#python)
-5. [Deep Learning Frameworks](#dl_frameworks)
-6. [Training Neural Nets](#train_nns)
-7. [Research Experiments with neural nets](#resexp_nns)
-8. [Data Analysis](#data_an)
+6. [Deep Learning Frameworks](#dl_frameworks)
+7. [Training Neural Nets](#train_nns)
+8. [Research Experiments with neural nets](#resexp_nns)
+9. [Data Analysis](#data_an)
 
 ## Math Background <a name="math_background"></a>
 
