@@ -1,5 +1,7 @@
 # Getting started with NNs
 
+![](neural_net_img.png)
+
 ![](mindmap.png)
 
 This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. It can useful if you are a math student, a life scientist or anyone else interested in data analysis. 
