@@ -17,7 +17,9 @@ If you are not familiar with Python you should learn it if you would like to tra
 
 Once you are familiar with the basics of Python and some command line, you are ready to dive into training neural networks. Fortunately there are very powerful open source tools (python libraries) that make training neural networks easier than ever. These tools are called deep learning frameworks and the most popular ones are [Tensorflow](https://www.tensorflow.org) and [PyTorch](https://pytorch.org). We talk about them in [Section 6](#dl_frameworks).
 
-After choosing your preferred deep learning framework, you are ready to explore the tips and tricks in training neural networks. You can find more on this in [Section 7](#train_nns).
+After choosing your preferred deep learning framework, you are ready to explore the tips and tricks in training neural networks. You can find more on this in [Section 7](#train_nns). If you are getting started with research in deep learning you may particularly benefit from [Section 8](#resexp_nns), where we give tips and resources for research experiments with neural nets. [Section 9](#data_an) touches basic tools for data analysis, which are often handy in many neural network experiments and applications.
+
+Finally, we link some online courses that teach deep learning in [Section 10](#dl_courses).
 
 # Table of Contents
 1. [Math Background](#math_background) 
@@ -29,6 +31,7 @@ After choosing your preferred deep learning framework, you are ready to explore 
 7. [Training Neural Nets](#train_nns)
 8. [Research Experiments with neural nets](#resexp_nns)
 9. [Data Analysis](#data_an)
+10.[Deep Learning Courses Online](#dl_courses)
 
 ## Math Background <a name="math_background"></a>
 
@@ -136,3 +139,10 @@ Deep learning is a field that has an important empirical side. In order to train
 ## Data Analysis and Image Processing <a name="data_an"></a>
 
 Data Analysis and Image processing tools are also very handy in the training of neural networks. In python the main library used for data processing and analysis is [pandas](https://pandas.pydata.org/docs/), inspired by the statistical programming language [R](https://www.r-project.org/about.html). For image processing we recommend the library [sci-kit image](https://scikit-image.org/docs/stable/) which contains plenty of image filtering, resizing, cropping, rotating, etc... algorithms.
+
+## Deep Learning Courses Online <a name="dl_courses"></a>
+
+Much work has gone into several online deep learning courses. We recommend to check out the following two sites:
+
+* [https://www.deeplearning.ai/programs/](https://www.deeplearning.ai/programs/)
+* [https://www.fast.ai](https://www.fast.ai)
