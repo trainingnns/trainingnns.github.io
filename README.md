@@ -68,7 +68,7 @@ If you prefer written or more in-depth sources, you can have a look at the follo
 * [_Introduction to Linear Algebra_ by Gilbert Strang](http://math.mit.edu/~gs/linearalgebra/)
 * [_Review of Probability Theory_ by Arian Maleki and Tom Do](http://cs229.stanford.edu/section/cs229-prob.pdf)
 
-For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication. If you are a Mathematician you may now think the math in Deep Leanring is not very involved, but this is far from too. Take a look at the (Modern Mathematics of Deep Learning)[https://arxiv.org/pdf/2105.04026.pdf] paper, which is a great introduction into the field of Mathematics of Deep Learning.
+For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication. If you are a Mathematician you may now think the math in Deep Leanring is not very involved, but this is far from too. Take a look at the [Modern Mathematics of Deep Learning](https://arxiv.org/pdf/2105.04026.pdf) paper, which is a great introduction into the field of Mathematics of Deep Learning.
 
 ## 2. Neural Network Basics <a name="nn_basics"></a>
 You can skip this section if you already know what a neural network is, what a loss function and the backpropagation algroithm is. Before traininig neural networks you should know what a neural network is. The following video series by [3blue1brown](https://www.3blue1brown.com) provides an excellent intuitive introduction to the basics of neural networks.
