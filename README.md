@@ -68,7 +68,7 @@ If you prefer written or more in-depth sources, you can have a look at the follo
 * [_Introduction to Linear Algebra_ by Gilbert Strang](http://math.mit.edu/~gs/linearalgebra/)
 * [_Review of Probability Theory_ by Arian Maleki and Tom Do](http://cs229.stanford.edu/section/cs229-prob.pdf)
 
- If you are a Mathematician you may now think the math in Deep Leanring is not very involved, but this is far from too. Take a look at the [Modern Mathematics of Deep Learning](https://arxiv.org/pdf/2105.04026.pdf) paper, which is a great introduction into the exciiting and growing field of Mathematics of Deep Learning.
+ If you are a Mathematician you may now think the math in deep learning is not very involved, but this is far from too. Take a look at the [Modern Mathematics of Deep Learning](https://arxiv.org/pdf/2105.04026.pdf) paper, which is a great introduction into the exciiting and growing field of Mathematics of Deep Learning.
  
 For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication.
 
