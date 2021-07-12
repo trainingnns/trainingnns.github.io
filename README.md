@@ -5,16 +5,33 @@
 This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. It can useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 We will cover basic concepts, as well as programming tools, that you need to get started with neural networks. The guide is organized into sections as in the map above and you can read it in the order that is most convenient for you, as well as skip some sections altogether if you are familiar with concepts covered in them.
 
+If you don't know what a neural network is, we recommend you finish first reading [Section 1](#math_background) and [Section 2](#nns_basics). These sections provide the resources to understand the basic math and idea behind neural networks as well as neural network training. Before diving into the next sections, which discuss the necessary tools for training neural networks yourself, we recommend to visit the [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.40188&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false). There you can immediately start tinkering with neural nets in an interactive fashion without programming. 
+The [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.40188&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) may at first overwhelm you with neural network training options that don't make much sense to you yet. In [Section 6](#train_nns) we will provide various resources for you to understand these options and many tips and tricks that go ino successfully training a neural network. Just
+click play on the top left corner in the playground and watch what happens! 
+
+Training neural nets yourself for applications or research requires some programming. If you don't have a programming background, then you will have to learn some basic programming (in Python) before training neural networks. If you know some Python already we recommend you check out a [simple colab notebook tutorial](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb) that walks you through an image classification task with neural networks in Tensorflow (one of the two big deep learning frameworks - we will talk more about deep learning frameworks in [Section 5](#dl_frameworks)). Colab notebooks are the perfect way to start for beginners with a basic understanding of neural networks and rudimentary python skills. Google describes Colab as follows:
+
+> Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
+
+If you are not familiar with Python you should learn it in order to train your first neural networks. We talk about Python resources in [Section 5](#python). The command lines is a very useful tool to any programmer. When it comes to training neural networks, you will also need basic command line skills once you start moving on from Colab tutorials to your own projects (for example to manage conda or pip environments and ssh connections to remote servers). We talk about command line resources in [Section 3](#cl_basics). In [Section 4](#hard_os) we touch on hardware and OS in the context of training neural networks. 
+
+Once you are familiar with the basics of Python and some command line, you are ready to dive into training neural networks. Fortunately there are very powerful open source tools (Python libraries) that make training neural networks easier than ever. These tools are also known as deep learning frameworks. The most popular ones are [Tensorflow](https://www.tensorflow.org) and [PyTorch](https://pytorch.org), which we briefly discuss in [Section 6](#dl_frameworks).
+
+After choosing your preferred deep learning framework, you are ready to explore the tricks invloveld in training neural networks successfully. You can find more on this in [Section 7](#train_nns). If you are getting started with research in deep learning, you may particularly benefit from [Section 8](#resexp_nns), where we give tips and resources for research experiments with neural nets. [Section 9](#data_an) touches on basic tools for data analysis, which are often handy in many neural network experiments and applications. Finally, in [Section 10](#dl_courses) we link some well-known online courses that teach deep learning.
+
+Enjoy!
+
 # Table of Contents
 1. [Math Background](#math_background) 
 2. [Neural Network Basics](#nns_basics)
 3. [Command Line Basics](#cl_basics)
-5. [Hardware and OS](#hard_os)
-4. [Python](#python)
-5. [Deep Learning Frameworks](#dl_frameworks)
-6. [Training Neural Nets](#train_nns)
-7. [Research Experiments with neural nets](#resexp_nns)
-8. [Data Analysis](#data_an)
+4. [Hardware and OS](#hard_os)
+5. [Python](#python)
+6. [Deep Learning Frameworks](#dl_frameworks)
+7. [Training Neural Nets](#train_nns)
+8. [Research Experiments with neural nets](#resexp_nns)
+9. [Data Analysis](#data_an)
+10. [Deep Learning Courses Online](#dl_courses)
 
 ## Math Background <a name="math_background"></a>
 
@@ -122,3 +139,10 @@ Deep learning is a field that has an important empirical side. In order to train
 ## Data Analysis and Image Processing <a name="data_an"></a>
 
 Data Analysis and Image processing tools are also very handy in the training of neural networks. In python the main library used for data processing and analysis is [pandas](https://pandas.pydata.org/docs/), inspired by the statistical programming language [R](https://www.r-project.org/about.html). For image processing we recommend the library [sci-kit image](https://scikit-image.org/docs/stable/) which contains plenty of image filtering, resizing, cropping, rotating, etc... algorithms.
+
+## Deep Learning Courses Online <a name="dl_courses"></a>
+
+Much work has gone into several online deep learning courses. We recommend to check out the following two sites:
+
+* [https://www.deeplearning.ai/programs/](https://www.deeplearning.ai/programs/)
+* [https://www.fast.ai](https://www.fast.ai)
