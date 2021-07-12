@@ -111,7 +111,7 @@ There is a great number of python libraries that provide implementations of neur
 Both of the libraries allow similar functionality and are well-documented. They are also compatible with a lot of architectures, such as CPU, GPU and TPU. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
 
 ## Training Neural Nets <a name="train_nns"></a>
-There are a lot of examples of code online that run the whole pipeline of building and training neural network models for various tasks. Check out for example these colab notebooks, which you can simply run with no changes to train a neural network on a given dataset:
+There are a lot of code examples online, which run the entire pipeline of building and training neural network models. Check out for example these colab notebooks, which you can simply run with no changes to train a neural network on a given dataset:
 
  * [Basic classification: Classify images of clothing](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb#scrollTo=jYysdyb-CaWM)
  * [Text Classification with Movie Reviews](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/tf2_text_classification.ipynb#scrollTo=ItXfxkxvosLH)
