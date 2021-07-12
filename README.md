@@ -17,8 +17,11 @@ click play on the top left corner in the playground and watch what happens!
 > Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs.
 
 * After choosing your preferred deep learning framework, you are ready to explore the tricks involved in training neural networks successfully. You can find more on this in [Section 7](#train_nns). 
+
 * If you are getting started with research in deep learning, you may particularly benefit from [Section 8](#resexp_nns), where we give tips and resources for research experiments with neural nets. 
+
 * [Section 9](#data_an) touches on basic tools for data analysis, which are often handy in neural network experiments and applications. 
+
 * Finally, in [Section 10](#dl_courses) we link some well-known online courses that teach deep learning.
 
 Enjoy!
