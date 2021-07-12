@@ -1,6 +1,6 @@
 # Getting started with NNs
 
-![](mindmap.png)
+![](trainingnns001.png)
 
 This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. We will cover basic concepts, as well as programming tools, that will help you to get started. You can find this guide useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 
