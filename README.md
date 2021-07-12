@@ -111,7 +111,14 @@ There is a great number of python libraries that provide implementations of neur
 Both of the libraries allow similar functionality and are well-documented. They are also compatible with a lot of architectures, such as CPU, GPU and TPU. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
 
 ## Training Neural Nets <a name="train_nns"></a>
-There are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
+There are a lot of examples of code online that run the whole pipeline of building and training neural network models for various tasks. Check out for example these colab notebooks, which you can simply run with no changes to train a neural network on a given dataset:
+
+ * [Basic classification: Classify images of clothing](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb#scrollTo=jYysdyb-CaWM)
+ * [Text Classification with Movie Reviews](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/tf2_text_classification.ipynb#scrollTo=ItXfxkxvosLH)
+
+The models above are specifically designed and tuned to solve a particular problem, which may be different from the application you are interested in. To find a model that is well-suited for your problem, it is always useful to look for more examples online. Learning what models are popular in your domain will help you get an idea of what is likely and not likely to work for you. You can even look up some pre-trained models (see e.g. [TensorFlow Hub](https://tfhub.dev)) that are already trained on large datasets specific to a particular domain and are ready to apply without training. 
+
+However, you may still need to design your own model from scratch, e.g. because your problem is very specific, or you need more control and understanding of the results. In this case, there are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
 
 **Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in deep learning research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
  * [Fully-connected networks](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/ch04.html): 1D signals or feature classification. 
@@ -122,7 +129,7 @@ There are numerous choices you have to make while building and training a neural
 
 **Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42).  Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and the Adam algorithm is a very popular choice. 
 
-**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, and batch size. This [post](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020) is an up-to-date study of available hyperparameter tunning algorithms and implementations. 
+**Hyperparameters:** You need to understand and reasonably choose hyperparameters involved in training, such as learning rate, batch size or number of training epochs. To undertand what hyperparameters are in general and what kinds of hyperparameters you will encounter during training of neural networks, you can check this [blogpost](https://towardsdatascience.com/neural-networks-parameters-hyperparameters-and-optimization-strategies-3f0842fac0a5). The choice (or tunning) of hyperparameters can also be performed algorithmically in practice. This [post](https://neptune.ai/blog/hyperparameter-tuning-in-python-a-complete-guide-2020) is an up-to-date study of available hyperparameter tunning algorithms and implementations. 
 
 **Initialization:** Initialization of your weight can make the difference for your network to converge succesfully to good minima. In this [article](https://www.deeplearning.ai/ai-notes/initialization/) there is a detailed discussion on the commonly used initialization procedures. 
 
@@ -139,7 +146,7 @@ These layers and many variations of them are implemented in the deep learning fr
 
 ## Research Experiments with Neural Nets<a name="resexp_nns"></a>
 
-Deep learning is a field that has an important empirical side. In order to train a neural network succesfully merely choosing the design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard?hl=es-419) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tunner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorch are handy for optimization and fine-tunning the different hyperparameters of your architecture. 
+Deep learning is a field that has an important empirical side. In order to train a neural network succesfully merely choosing the design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorch are handy for optimization and fine-tunning of different hyperparameters of your architecture. 
 
 ## Data Analysis and Image Processing <a name="data_an"></a>
 
