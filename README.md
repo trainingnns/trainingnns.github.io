@@ -39,6 +39,7 @@ Enjoy!
 8. [Research Experiments with neural nets](#resexp_nns)
 9. [Data Analysis](#data_an)
 10. [Deep Learning Courses Online](#dl_courses)
+11. [Contact](#contact)
 
 ## Math Background <a name="math_background"></a>
 
@@ -126,7 +127,7 @@ However, you may still need to design your own model from scratch, e.g. because 
 **Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in deep learning research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
  * [Fully-connected networks](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/ch04.html): 1D signals or feature classification. 
  * [Convolutional networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53): 2D signals, and images.
- * [Recurrent networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53): Time series and natural language. 
+ * [Recurrent networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): Time series and natural language. 
  * [Residual networks](https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4): Operator learning and images.
  * [Transformers](https://theaisummer.com/transformer/): Time series, natural language, and images. 
 
@@ -161,3 +162,11 @@ Much work has gone into several online deep learning courses. We recommend to ch
 
 * [https://www.deeplearning.ai/programs/](https://www.deeplearning.ai/programs/)
 * [https://www.fast.ai](https://www.fast.ai)
+
+## Contact <a name="contact"></a>
+
+If you have comments, questions or cool ideas regarding the content of this webpage please feel free to contact the authors:
+
+- [Mariia Seleznova](https://www.ai.math.uni-muenchen.de/members/phd_students/seleznova/index.html): [seleznova@math.lmu.de](mailto:seleznova@math.lmu.de)
+- [Stefan Kolek](https://www.ai.math.uni-muenchen.de/members/phd_students/kolek/index.html): [kolek@math.lmu.de](mailto:kolek@math.lmu.de)
+- [Hector Andrade](https://www.ai.math.uni-muenchen.de/members/phd_students/andrade/index.html): [andrade@math.lmu.de](mailto:andrade@math.lmu.de)
