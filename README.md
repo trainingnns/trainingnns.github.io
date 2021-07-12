@@ -179,7 +179,7 @@ Much work has gone into several online deep learning courses. We recommend to ch
 * [https://www.deeplearning.ai/programs/](https://www.deeplearning.ai/programs/)
 * [https://www.fast.ai](https://www.fast.ai)
 
-## Contact <a name="contact"></a>
+## 11. Contact <a name="contact"></a>
 <sup>[Back to table of contents](#table_content)</sup>
 
 If you have comments, questions or cool ideas regarding the content of this webpage please feel free to contact the authors:
