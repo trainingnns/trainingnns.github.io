@@ -92,11 +92,11 @@ Both of the libraries allow similar functionality and are well-documented. They 
 There are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
 
 **Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in deep learning research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
- * Fully-connected networks (Multi-layer perceptrons)
- * Convolutional networks
- * Recurrent networks
- * Residual netoworks
- * Transformers
+ * [Fully-connected networks](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/ch04.html): 1D signals or feature classification. 
+ * [Convolutional networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53): 2D signals, and images.
+ * [Recurrent networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53): Time series and natural language. 
+ * [Residual networks](https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4): Operator learning and images.
+ * [Transformers](https://theaisummer.com/transformer/): Time series, natural language, and images. 
 
 **Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42).  Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and the Adam algorithm is a very popular choice. 
 
