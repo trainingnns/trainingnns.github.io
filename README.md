@@ -1,10 +1,8 @@
 # Getting Started with Neural Networks
 
-
+This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. We will cover basic concepts, as well as programming tools, that will help you to get started. You can find this guide useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 
 ![](trainingnns001.png)
-
-This guide is for anyone who wants to start working with neural networks but has little to no prior experience and does not know where to start. We will cover basic concepts, as well as programming tools, that will help you to get started. You can find this guide useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 
 The guide is organized into sections as in the map above and you can read it in the order that is most convenient for you, as well as skip some sections altogether if you are familiar with concepts covered in them. Here is some advice on how to navigate the guide:
 
