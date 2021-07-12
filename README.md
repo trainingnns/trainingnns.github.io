@@ -40,7 +40,7 @@ Enjoy!
 11. [Contact](#contact)
 
 ## 1. Math Background <a name="math_background"></a>
-<sub>[Back to table of contents](#table_content)</sub>
+<sup>[Back to table of contents](#table_content)</sup>
 
 Areas of math that are most commonly used in neural networks are (more or less in the order of importance):
 
