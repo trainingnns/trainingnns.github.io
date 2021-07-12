@@ -26,7 +26,7 @@ click play on the top left corner in the playground and watch what happens!
 
 Enjoy!
 
-# Table of Contents
+# Table of Contents <a name="table_content"></a>
 1. [Math Background](#math_background) 
 2. [Neural Network Basics](#nns_basics)
 3. [Command Line Basics](#cl_basics)
@@ -40,6 +40,7 @@ Enjoy!
 11. [Contact](#contact)
 
 ## 1. Math Background <a name="math_background"></a>
+<sub>[Back to table of contents](#table_content)</sub>
 
 Areas of math that are most commonly used in neural networks are (more or less in the order of importance):
 
@@ -167,6 +168,6 @@ Much work has gone into several online deep learning courses. We recommend to ch
 
 If you have comments, questions or cool ideas regarding the content of this webpage please feel free to contact the authors:
 
-- [Mariia Seleznova](https://www.ai.math.uni-muenchen.de/members/phd_students/seleznova/index.html): [seleznova@math.lmu.de](mailto:seleznova@math.lmu.de)
-- [Stefan Kolek](https://www.ai.math.uni-muenchen.de/members/phd_students/kolek/index.html): [kolek@math.lmu.de](mailto:kolek@math.lmu.de)
-- [Hector Andrade](https://www.ai.math.uni-muenchen.de/members/phd_students/andrade/index.html): [andrade@math.lmu.de](mailto:andrade@math.lmu.de)
+* [Mariia Seleznova](https://www.ai.math.uni-muenchen.de/members/phd_students/seleznova/index.html): [seleznova@math.lmu.de](mailto:seleznova@math.lmu.de)
+* [Stefan Kolek](https://www.ai.math.uni-muenchen.de/members/phd_students/kolek/index.html): [kolek@math.lmu.de](mailto:kolek@math.lmu.de)
+* [Hector Andrade](https://www.ai.math.uni-muenchen.de/members/phd_students/andrade/index.html): [andrade@math.lmu.de](mailto:andrade@math.lmu.de)
