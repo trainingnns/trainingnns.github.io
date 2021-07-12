@@ -41,10 +41,9 @@ Enjoy!
 
 ## 1. Math Background <a name="math_background"></a>
 <sup>[Back to table of contents](#table_content)</sup>
-
 Areas of math that are most commonly used in neural networks are (more or less in the order of importance):
 
-* **Linear Algebra** (vectors, matrices and various operatins with them)
+* **Linear Algebra** (vectors, matrices and various operations with them)
 * **Calculus** (gradients and integrals)
 * **Probability and Statistics** (random variables, expectations, variance, Bayes' theorem)
 * **Optimization Algorithms** (minimization or maximization)
@@ -74,12 +73,14 @@ If you prefer written or more in-depth sources, you can have a look at the follo
 For the next section you should understand why the gradient is pointing in the direction of steepest descent and  matrix multiplication.
 
 ## 2. Neural Network Basics <a name="nn_basics"></a>
+<sup>[Back to table of contents](#table_content)</sup>
 You can skip this section if you already know what a neural network is, what a loss function and the backpropagation algroithm is. Before traininig neural networks you should know what a neural network is. The following video series by [3blue1brown](https://www.3blue1brown.com) provides an excellent intuitive introduction to the basics of neural networks.
 
 [https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 
 ## 3. Command Line Basics<a name="cl_basics"></a>
+<sup>[Back to table of contents](#table_content)</sup>
 To run code on your computer or work with remote machines, you often need to use command line. The command languages (or shells) that are available for you depend on your OS. The most commonly used one is Bash, which is the default for most Linux systems and MacOS prior to 2019. You can start learning about it with this tutorial: [https://ubuntu.com/tutorials/command-line-for-beginners#1-overview](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
 Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki/Z_shell)) are quite similar to Bash and allow easy transition.
@@ -87,7 +88,7 @@ Other common shells for Linux or MacOS (e.g. [Zsh](https://en.wikipedia.org/wiki
 On the other hand, Windows uses Command Prompt (cmd), which is rather different from Bash. You can take a look at this tutorial if you have interest on learning cmd: [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
 
 ## 4. Hardware and OS<a name="hard_os"></a>
-
+<sup>[Back to table of contents](#table_content)</sup>
 The training of neural networks is usually computationally expensive. Modern deep learning frameworks have included the possibility to train the neural network in different architectures and devices, in particular, GPUs. Although the need of a GPU is generally minor when you are training your first experiments, a real-world application will sometimes need more than one GPU to be trained. The advantages of frameworks like [pytorch or tensorflow](#dl_framewokrs) is the compatibility of its code to almost any device. Since the software normally used in deep learning is python, one can train neural networks on any operating system, e.g. Windows, OS X and Linux. We recommend to use Windows or Linux since currently OS X does not offer a stable GPU version. 
 
 In order to use GPUs for training you need to have a CUDA-compatible GPU from NVIDIA. If you have Linux Ubuntu, you can follow this [post](https://askubuntu.com/questions/1288672/how-do-you-install-cuda-11-on-ubuntu-20-10-and-verify-the-installation). For Windows 10 users, you can consult this [guide](https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781). 
@@ -95,6 +96,7 @@ In order to use GPUs for training you need to have a CUDA-compatible GPU from NV
 If you are affiliated to a university or a research center you would normally have access to computing clusters with GPUs. The main tool you need to know to run your training remotely is [ssh](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work). If you are interested to have your own Deep Learning Rig, there are affordable ways to build it; this [video](https://www.youtube.com/watch?v=Nz7xzUybpFM&ab_channel=DanielBourke) provides a detailed guide on how to do it. There are also some commercially available pre-built deep learning workstations (high-performance PCs), for example in Germany, there is [AIME](https://www.aime.info/).
 
 ## 5. Python<a name="python"></a>
+<sup>[Back to table of contents](#table_content)</sup>
 Python is a very popular programming language! It is fair to say that most of deep learning research and applications require python. The following chart illustrates the rise of popularity of python.
 ![](chart_python.png)
 (Source: https://stackoverflow.blog/2017/09/06/incredible-growth-python/ )
@@ -107,6 +109,7 @@ There is an abundance of tutorials for python. We recommend
 In scientific computing, you typically would also like to interact with the results of your computations and visualize them in real-time. [Jupyter Notebook](https://jupyter.org/documentation) is the best tool to do that in Python. It allows you to visualize and run individual pieces in real-time, which is ideal for prototyping. Jupyter Notebook is also available for remote computation, one can learn to run notebooks remotely following this [guide](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/). This also allows you to have a graphical interface on remote servers. Another great visualiation tool similar to Jupyter is [Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). As Jupyter, in Colab you can use interactive notebooks to run python code and train neural networks. The big advantage of this tool is that it makes all the computations in the cloud. This also means that you can run your notebook whenever you have internet access. Google also allows Colab users to train and deploy models, both freely and with cost, with GPUs and TPUs. 
 
 ## 6. Deep Learning Frameworks <a name="dl_frameworks"></a>
+<sup>[Back to table of contents](#table_content)</sup>
 There is a great number of python libraries that provide implementations of neural networks, but the most popular ones are Tensorflow and PyTorch:
 
 * [PyTorch](https://pytorch.org/tutorials/beginner/basics/intro.html)
@@ -115,6 +118,7 @@ There is a great number of python libraries that provide implementations of neur
 Both of the libraries allow similar functionality and are well-documented. They are also compatible with a lot of architectures, such as CPU, GPU and TPU. The choice between them either depends on your project's needs or is just subjective. You can consult some _recent_ blogposts (e.g. [this one](https://medium.com/featurepreneur/tensorflow-vs-pytorch-which-is-better-for-your-application-development-6897d5d4dee0)) to make your choice.
 
 ## 7. Training Neural Nets <a name="train_nns"></a>
+<sup>[Back to table of contents](#table_content)</sup>
 There are a lot of code examples online, which run the entire pipeline of building and training neural network models. Check out for example these colab notebooks, which you can simply run with no changes to train a neural network on a given dataset:
 
  * [Basic classification: Classify images of clothing](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb#scrollTo=jYysdyb-CaWM)
@@ -130,6 +134,7 @@ However, you may still need to design your own model from scratch, e.g. because 
  * [Convolutional networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53): 2D signals, and images.
  * [Recurrent networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/): Time series and natural language. 
  * [Residual networks](https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4): Operator learning and images.
+ * [U-Nets](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5): Image reconstruction and segmentation.
  * [Transformers](https://theaisummer.com/transformer/): Time series, natural language, and images. 
 
 **Optimization method:** There is a number of optimization methods beyond gradient descent that are commonly used in deep learning and you need to choose one of them to train your network. You can find a good survey of optimization methods for deep learning in this [blogpost](https://medium.com/analytics-vidhya/different-optimization-algorithm-for-deep-neural-networks-complete-guide-7f3e49eb7d42). Often adaptive optimization methods or methods with momentum yield better results than simple gradient descent and the Adam algorithm is a very popular choice.
@@ -150,22 +155,22 @@ However, you may still need to design your own model from scratch, e.g. because 
 These layers and many variations of them are implemented in the deep learning frameworks that we covered.
 
 ## 8. Research Experiments with Neural Nets<a name="resexp_nns"></a>
-
+<sup>[Back to table of contents](#table_content)</sup>
 Deep learning is a field that has an important empirical side. In order to train a neural network succesfully merely choosing the design is not enough, you would need to make trial-error iterations in order to tune the different elements. You can evaluate the performance of your neural network using different metrics, such as accuracy and mean square error. Software like [tensorboard](https://www.tensorflow.org/tensorboard) allows you to monitor the performance of different runs simultaneously. Tools like [Keras Tuner](https://www.tensorflow.org/tutorials/keras/keras_tuner) in tensorflow and [Ray Tune](https://pytorch.org/tutorials/beginner/hyperparameter_tuning_tutorial.html) in pytorch are handy for optimization and fine-tunning of different hyperparameters of your architecture. 
 
 ## 9. Data Analysis and Image Processing <a name="data_an"></a>
-
+<sup>[Back to table of contents](#table_content)</sup>
 Data Analysis and Image processing tools are also very handy in the training of neural networks. In python the main library used for data processing and analysis is [pandas](https://pandas.pydata.org/docs/), inspired by the statistical programming language [R](https://www.r-project.org/about.html). For image processing we recommend the library [sci-kit image](https://scikit-image.org/docs/stable/) which contains plenty of image filtering, resizing, cropping, rotating, etc... algorithms.
 
 ## 10. Deep Learning Courses Online <a name="dl_courses"></a>
-
+<sup>[Back to table of contents](#table_content)</sup>
 Much work has gone into several online deep learning courses. We recommend to check out the following two sites:
 
 * [https://www.deeplearning.ai/programs/](https://www.deeplearning.ai/programs/)
 * [https://www.fast.ai](https://www.fast.ai)
 
 ## Contact <a name="contact"></a>
-
+<sup>[Back to table of contents](#table_content)</sup>
 If you have comments, questions or cool ideas regarding the content of this webpage please feel free to contact the authors:
 
 * [Mariia Seleznova](https://www.ai.math.uni-muenchen.de/members/phd_students/seleznova/index.html): [seleznova@math.lmu.de](mailto:seleznova@math.lmu.de)
