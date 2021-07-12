@@ -1,4 +1,6 @@
-# Getting started with NNs
+# Getting Started with Neural Networks
+
+
 
 ![](trainingnns001.png)
 
