@@ -48,7 +48,6 @@ Areas of math that are most commonly used in neural networks are (more or less i
 * **Linear Algebra** (vectors, matrices and various operations with them)
 * **Calculus** (gradients and integrals)
 * **Probability and Statistics** (random variables, expectations, variance, Bayes' theorem)
-* **Optimization Algorithms** (minimization or maximization)
  
 If you are familiar with basics of these fields, especially with matrices and gradients (e.g. you took Linear Algebra and Multivariable Calculus courses), you can skip this section. Otherwise we recommend that you obtain basic understanding of matrices and gradients. 
 
