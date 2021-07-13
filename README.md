@@ -1,4 +1,5 @@
 # Getting Started with Neural Networks
+<sup>by  [Mariia Seleznova](https://www.ai.math.uni-muenchen.de/members/phd_students/seleznova/index.html), [Stefan Kolek](https://www.ai.math.uni-muenchen.de/members/phd_students/kolek/index.html) and [Hector Andrade](https://www.ai.math.uni-muenchen.de/members/phd_students/andrade/index.html)</sup>
 
 This guide is for anyone who wants to learn how to use neural networks but has little to no prior experience and does not know where to start. We will cover basic concepts, as well as programming tools, that will help you to get started. You can find this guide useful if you are a math student, a life scientist or anyone else interested in data analysis. 
 
@@ -133,7 +134,7 @@ There are a lot of code examples online, which run the entire pipeline of buildi
  * [Timeseries forecasting for weather prediction](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/timeseries/ipynb/timeseries_weather_forecasting.ipynb)
 
 The models above are specifically designed and tuned to solve a particular problem, which may be different from the application you are interested in. To find a model that is well-suited for your problem, it is always useful to look for more examples online. You can find a great variety of short and simple code examples for different data types (images, video, audio, timeseries, etc.) and different problems (classification, object recognition, denoising, generation, etc.) in the [Keras library of code examples](https://keras.io/examples/). Learning what models are popular in your domain will help you get an idea of what is likely and not likely to work for you. You can even look up some pre-trained models (see e.g. [TensorFlow Hub](https://tfhub.dev)) that are already trained on large datasets specific to a particular domain and are ready to apply without training. 
-
+{fig:tas
 However, you may still need to design your own model from scratch, e.g. because your problem is very specific, or you need more control and understanding of the results. In this case, there are numerous choices you have to make while building and training a neural network model. They can be categorized as follows:
 
 **Architecture:** First you need to choose the very structure of a network. How many layers should it have? What kind of layers in what order? How many neurons/filters should be in each layer? The number of particular architectures published in deep learning research is enormous and it's impossible to cover all of them. But to understand more complex architectures, it is important to consider at least these basic classes:
